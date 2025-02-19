@@ -1,0 +1,25 @@
+// Переменные
+$primary-color: #007bff; // Синий цвет
+$hover-color: #ff0000;   // Красный цвет
+$font-family: 'Arial, sans-serif';
+
+// Базовые стили
+body {
+  font-family: $font-family;
+}
+
+h1 {
+  color: $primary-color;
+}
+
+// Кастомная кнопка
+button.custom-btn {
+  background-color: $primary-color; // Синий цвет
+  color: white;
+  border: none;
+
+  &:hover {
+    background-color: $hover-color; // Красный цвет при наведении
+    transition: background-color 0.3s ease;
+  }
+}

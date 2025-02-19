@@ -1,0 +1,17 @@
+body {
+  font-family: "Arial, sans-serif";
+}
+
+h1 {
+  color: #007bff;
+}
+
+button.custom-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+button.custom-btn:hover {
+  background-color: #ff0000;
+  transition: background-color 0.3s ease;
+}/*# sourceMappingURL=styles.css.map */
